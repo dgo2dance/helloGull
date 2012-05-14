@@ -1,0 +1,58 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>hellogull_Calendar</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<script type="text/javascript" src="js/hellogullCal.js"><</script>
+</head>
+<body>
+	<div id="Container">
+	<!--
+    <a href="#" class="button big blue">Big Button</a>
+    <a href="#" class="button big green">Big Button</a>
+    <a href="#" class="button big orange">Big Button</a>
+    <a href="#" class="button big gray">Big Button</a>
+    <a href="#" class="button blue medium">Medium Button</a>
+    <a href="#" class="button green medium">Medium Button</a>
+    <a href="#" class="button orange medium">Medium Button</a>
+    <a href="#" class="button gray medium">Medium Button</a>
+    <a href="#" class="button small blue">Small Button</a>
+    <a href="#" class="button small green">Small Button</a>
+    <a href="#" class="button small blue rounded">Rounded</a>
+    <a href="#" class="button small orange">Small Button</a>
+    <a href="#" class="button small gray">Small Button</a>
+    <a href="#" class="button small green rounded">Rounded</a>
+	-->
+	<div id="calendar"><input class="input" type="text" value="" /></div>
+ <!--   <div class="calendar"><input class="input" type="text" value="" /></div>
+ -->
+</div>
+<div id="footer">
+	<div class="tri"></div>
+	<h1>HelloGull Calendar</h1>
+	<a class="tzine" href="http://tutorialzine.com/2010/10/css3-animated-bubble-buttons/">Read &amp; Download on</a>
+</div>
+<script type="text/javascript">
+    window.onload = function () {
+        //日历控件实例化
+        var input1 =document.getElementById("calendar").getElementsByTagName("input")[0]
+   //   var input2 =getByClass("calendar")[0].getElementsByTagName("input")[0]
+        var calendar1 = new Calendar(input1,"-","yellow");
+  //    var calendar2 = new Calendar(input2,"/","blue");
+	}
+	//获取class 函数
+	function getByClass(className, parent) {
+	parent=parent || document;
+    var result=[];
+	var aEle =parent.getElementsByTagName("*")
+	for(var i=0;i<aEle.length;i++){
+		if(aEle[i].className==className){
+			result.push(aEle[i])
+			}	
+		}
+		return result
+};
+</script>
+</body>
+</html>
