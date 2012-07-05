@@ -1,0 +1,18 @@
+
+@import url("http://fast.fonts.com/t/1.css?apiType=css&projectid=b65cc316-13b2-4b72-b0b2-9645cc3616a8");
+@font-face{
+font-family:"DinCondensedLight";
+src:url("fonts/din-condensed/din-condensed/c0be55e4-0b40-4646-a643-431ca3639465.eot?iefix") format("eot");}
+@font-face{
+font-family:"DinCondensedLight";
+src:url("fonts/din-condensed/c0be55e4-0b40-4646-a643-431ca3639465.eot?iefix");
+src:url("fonts/din-condensed/43e82893-3880-47b2-82d6-5b136f8f7477.woff") format("woff"),url("fonts/din-condensed/72f03533-e4e2-48a4-9d34-53d2964eb649.ttf") format("truetype"),url("fonts/din-condensed/c11fd4df-941d-4a17-8af0-be88e02e0042.svg#c11fd4df-941d-4a17-8af0-be88e02e0042") format("svg");
+}
+@font-face{
+font-family:"DinCondensedRegular";
+src:url("fonts/din-condensed/6fa09720-5b0e-48a5-8895-5af8af928c01.eot?iefix") format("eot");}
+@font-face{
+font-family:"DinCondensedRegular";
+src:url("fonts/din-condensed/6fa09720-5b0e-48a5-8895-5af8af928c01.eot?iefix");
+src:url("fonts/din-condensed/3b15daf5-d7fb-4099-93b9-db20fd26c2fe.woff") format("woff"),url("fonts/din-condensed/16159505-c85d-44ba-ba2b-64f94e68ddb5.ttf") format("truetype"),url("fonts/din-condensed/b2be45ad-0169-4c84-9fc9-66a0e9ebff0a.svg#b2be45ad-0169-4c84-9fc9-66a0e9ebff0a") format("svg");
+}

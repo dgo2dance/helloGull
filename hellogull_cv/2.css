@@ -1,0 +1,74 @@
+* {
+	outline:0!important;
+	-webkit-touch-callout:none;
+	-webkit-user-select:none;
+	-khtml-user-select:none;
+	-moz-user-select:none;
+	-ms-user-select:none;
+	user-select:none;
+	transition-timing-function:ease-out;
+	-moz-transition-timing-function:ease-out;
+	-webkit-transition-timing-function:ease-out;
+	-o-transition-timing-function:ease-out;
+	transition-duration:.3s;
+	-moz-transition-duration:.3s;
+	-webkit-transition-duration:.3s;
+	-o-transition-duration:.3s
+}
+html {
+	overflow-x:hidden;
+	font-size:100%;
+	-webkit-text-size-adjust:100%;
+	-ms-text-size-adjust:100%
+}
+html,button,input,select,textarea {
+	font-family:"pill-gothic-300mg";
+	color:#242021
+}
+body {
+	overflow-x:hidden;
+	margin:0;
+	font-family:"pill-gothic-300mg";
+	font-size:100%;
+	line-height:1
+}
+
+a {
+	color:#242021;
+	text-decoration:none;
+	cursor:pointer
+}
+a:hover {
+	color:#242021
+}
+abbr[title] {
+	border-bottom:1px dotted
+}
+b,strong {
+	font-weight:bold
+}
+.clearfix:before,.clearfix:after {
+	content:"";
+	display:table
+}
+.clearfix:after {
+	clear:both
+}
+.clearfix {
+	*zoom:1
+}
+
+
+
+
+
+.frame {
+	position:relative;
+	background:-moz-radial-gradient(center,ellipse cover,rgba(255,255,255,0.88) 1%,rgba(255,255,255,0.96) 66%,rgba(187,187,187,1) 120%);
+	background:-webkit-gradient(radial,center center,0px,center center,100%,color-stop(1%,rgba(255,255,255,0.88)),color-stop(66%,rgba(255,255,255,0.96)),color-stop(100%,rgba(187,187,187,1)));
+	background:-webkit-radial-gradient(center,ellipse cover,rgba(255,255,255,0.88) 1%,rgba(255,255,255,0.96) 66%,rgba(187,187,187,1) 120%);
+	background:-o-radial-gradient(center,ellipse cover,rgba(255,255,255,0.88) 1%,rgba(255,255,255,0.96) 66%,rgba(187,187,187,1) 120%);
+	background:-ms-radial-gradient(center,ellipse cover,rgba(255,255,255,0.88) 1%,rgba(255,255,255,0.96) 66%,rgba(187,187,187,1) 120%);
+	background:radial-gradient(center,ellipse cover,rgba(255,255,255,0.88) 1%,rgba(255,255,255,0.96) 66%,rgba(187,187,187,1) 120%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#e0ffffff',endColorstr='#bbbbbb',GradientType=1)
+}
